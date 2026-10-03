@@ -5,8 +5,9 @@ import HeroIntl from "../../components/HeroIntl";
 import Trusted from "../../components/Trusted";
 import SeoGrowth from "../../components/SeoGrowth";
 import ServicesIntl from "../../components/ServicesIntl";
+import WhyJoin from "../../components/WhyJoin";
 import CTAIntl from "../../components/CTAIntl";
-import Tools from "../../components/Tools";
+import Statistics from "../../components/Statistics";
 import Testimonials from "../../components/Testimonials";
 
 export default function HomeUS() {
@@ -19,7 +20,8 @@ export default function HomeUS() {
         <CTAIntl />
         <Trusted />
         <SeoGrowth />
-        <Tools />
+        <Statistics />
+        <WhyJoin />
         <Testimonials />
 
 
