@@ -13,7 +13,7 @@ export default function Performance() {
             {/* Main Background Image element */}
             <div className="absolute inset-0 bg-slate-200 rounded-3xl overflow-hidden shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80"
+                src="./performance-1.jpeg"
                 alt="Performance Graph"
                 className="w-full h-full object-cover"
               />

@@ -8,25 +8,25 @@ const services = [
     title: "UI/UX Design",
     desc: "Intuitive, user-centered designs that captivate and convert your target audience into loyal customers through seamless digital interactions.",
     linkText: "Explore Design",
-    imgSrc: "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&q=80",
+    imgSrc: "./ui-ux.jpeg",
   },
   {
     title: "Web Development",
     desc: "Fast, scalable, and secure websites built with modern technologies ensuring maximum performance and reliability for your growing business.",
     linkText: "Discover Development",
-    imgSrc: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&q=80",
+    imgSrc: "./web-developent.jpeg",
   },
   {
     title: "Digital Marketing",
     desc: "Data-driven strategies to increase your reach, drive qualified traffic, and maximize your ROI across all digital channels.",
     linkText: "View Strategies",
-    imgSrc: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
+    imgSrc: "./digital.jpeg",
   },
   {
     title: "Brand Strategy",
     desc: "Crafting a unique and compelling brand identity that resonates with your audience and differentiates you from the competition.",
     linkText: "See Brand Services",
-    imgSrc: "https://images.unsplash.com/photo-1557425955-df376b5903c8?w=800&q=80",
+    imgSrc: "./brand.jpeg",
   },
 ];
 
