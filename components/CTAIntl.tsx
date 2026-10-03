@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function CTAIntl() {
   return (
-    <section className="py-24 bg-indigo-600 relative overflow-hidden">
+    <section className="py-10 bg-indigo-600 relative overflow-hidden">
       <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10 mix-blend-overlay"></div>
       
       <div className="absolute top-0 right-0 w-96 h-96 bg-white/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3"></div>

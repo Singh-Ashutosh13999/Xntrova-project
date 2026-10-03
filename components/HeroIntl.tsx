@@ -21,7 +21,7 @@ export default function HeroIntl() {
   };
 
   return (
-    <section id="home" className="pt-24 pb-12 md:pt-32 md:pb-16 relative overflow-hidden bg-slate-950">
+    <section id="home" className="pt-20 pb-8 md:pt-24 md:pb-10 relative overflow-hidden bg-slate-950">
       {/* Background Image */}
       <img
         src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1920&q=80"

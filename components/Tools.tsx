@@ -19,7 +19,7 @@ const tools = [
 
 export default function Tools() {
   return (
-    <section className="relative flex min-h-[700px] items-center overflow-hidden bg-slate-900 py-20">
+    <section className="relative flex min-h-[700px] items-center overflow-hidden bg-slate-900 py-10">
 
       {/* Background */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(37,99,235,0.12),transparent_60%)]" />

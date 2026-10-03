@@ -10,7 +10,7 @@ const stats = [
 
 export default function Statistics() {
   return (
-    <section className="relative flex min-h-[500px] items-center overflow-hidden bg-slate-900 py-24 text-white">
+    <section className="relative flex min-h-[500px] items-center overflow-hidden bg-slate-900 py-10 text-white">
       {/* Background */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(37,99,235,0.12),transparent_70%)]" />
 

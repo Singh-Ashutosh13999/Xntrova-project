@@ -21,7 +21,7 @@ export default function Hero() {
   };
 
   return (
-    <section id="home" className="pt-24 pb-12 md:pt-32 md:pb-16 relative overflow-hidden bg-slate-900">
+    <section id="home" className="pt-20 pb-8 md:pt-24 md:pb-10 relative overflow-hidden bg-slate-900">
       {/* Background Image */}
       <img
         src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1920&q=80"

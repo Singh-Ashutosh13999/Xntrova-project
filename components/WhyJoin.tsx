@@ -27,7 +27,7 @@ const reasons = [
 
 export default function WhyJoin() {
   return (
-    <section className="py-24 bg-white relative overflow-hidden">
+    <section className="py-10 bg-white relative overflow-hidden">
       
       {/* Decorative Background Elements */}
       <div className="absolute top-0 right-0 w-1/3 h-full bg-slate-50/50 skew-x-12 translate-x-20 -z-10 hidden lg:block"></div>
@@ -39,7 +39,7 @@ export default function WhyJoin() {
           <span className="mb-4 inline-block rounded-full border border-blue-100 bg-blue-50 px-5 py-2 text-sm font-bold uppercase tracking-widest text-blue-600 shadow-sm">
             Our Advantage
           </span>
-          <h2 className="mb-8 text-4xl font-extrabold tracking-tight text-slate-900 md:text-5xl lg:text-6xl leading-tight">
+          <h2 className="mb-8 text-3xl font-extrabold tracking-tight text-slate-900 md:text-4xl leading-tight">
             Why Partner With Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">Global Digital Experts?</span>
           </h2>
           <p className="text-lg leading-relaxed text-slate-600 max-w-2xl mx-auto">

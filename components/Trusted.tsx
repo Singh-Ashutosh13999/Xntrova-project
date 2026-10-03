@@ -17,7 +17,7 @@ const companies = [
 
 export default function Trusted() {
   return (
-    <section className="relative overflow-hidden border-b border-slate-100 bg-white py-16">
+    <section className="relative overflow-hidden border-b border-slate-100 bg-white py-10">
 
       {/* Heading */}
       <div className="mx-auto mb-10 max-w-7xl px-6 text-center">

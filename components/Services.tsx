@@ -50,7 +50,7 @@ const services = [
 
 export default function Services() {
   return (
-    <section id="services" className="bg-slate-50 py-16">
+    <section id="services" className="bg-slate-50 py-10">
       <div className="container mx-auto px-6">
 
         {/* Heading Section */}

@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Performance() {
   return (
-    <section className="py-20 bg-slate-50 overflow-hidden">
+    <section className="py-10 bg-slate-50 overflow-hidden">
       <div className="container mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
 

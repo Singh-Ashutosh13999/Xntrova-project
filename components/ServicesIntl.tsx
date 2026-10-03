@@ -32,7 +32,7 @@ const services = [
 
 export default function ServicesIntl() {
   return (
-    <section id="services" className="bg-slate-900 py-24 text-white">
+    <section id="services" className="bg-slate-900 py-10 text-white">
       <div className="container mx-auto px-6">
 
         {/* Heading Section */}

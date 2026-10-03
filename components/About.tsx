@@ -3,7 +3,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <section id="about" className="py-16 bg-white overflow-hidden">
+    <section id="about" className="py-10 bg-white overflow-hidden">
       <div className="container mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           

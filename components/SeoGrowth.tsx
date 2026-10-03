@@ -34,7 +34,7 @@ const seoMethods = [
 
 export default function SeoGrowth() {
   return (
-    <section className="py-20 bg-slate-50 overflow-hidden">
+    <section className="py-10 bg-slate-50 overflow-hidden">
       <div className="container mx-auto px-6">
         
         <div className="mx-auto mb-16 max-w-3xl text-center">
