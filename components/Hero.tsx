@@ -22,9 +22,15 @@ export default function Hero() {
 
   return (
     <section id="home" className="pt-24 pb-12 md:pt-32 md:pb-16 relative overflow-hidden bg-slate-900">
+      {/* Background Image */}
+      <img
+        src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1920&q=80"
+        alt="Hero Background"
+        className="absolute inset-0 w-full h-full object-cover opacity-40 mix-blend-overlay -z-20 pointer-events-none"
+      />
       {/* Background with dark gradient for premium look */}
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-blue-900/40 via-slate-900 to-slate-950 -z-10"></div>
-      
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-blue-900/60 via-slate-900/80 to-slate-950 -z-10"></div>
+
       <div className="container mx-auto px-6 relative z-10">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Left Side: Slogan */}
@@ -49,40 +55,40 @@ export default function Hero() {
           <div className="bg-white p-8 rounded-3xl shadow-xl shadow-slate-200/50 border border-slate-100 relative">
             {/* Decorative element */}
             <div className="absolute -top-4 -right-4 w-24 h-24 bg-blue-500/10 rounded-full blur-2xl pointer-events-none"></div>
-            
+
             <h3 className="text-2xl font-bold text-slate-900 mb-2">Let's Talk</h3>
             <p className="text-slate-500 mb-6 text-sm">Have a project in mind? Fill the form below and we will get back to you.</p>
 
             <form onSubmit={handleSubmit} className="space-y-4">
               <div>
                 <label className="block text-sm font-medium text-slate-700 mb-1" htmlFor="name">Full Name *</label>
-                <input 
-                  type="text" 
+                <input
+                  type="text"
                   id="name"
                   placeholder="John Doe"
                   className="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-white transition-all"
                   value={formData.name}
-                  onChange={(e) => setFormData({...formData, name: e.target.value})}
+                  onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                 />
               </div>
               <div>
                 <label className="block text-sm font-medium text-slate-700 mb-1" htmlFor="phone">Phone Number *</label>
-                <input 
-                  type="tel" 
+                <input
+                  type="tel"
                   id="phone"
                   placeholder="+1 (555) 000-0000"
                   className="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-white transition-all"
                   value={formData.phone}
-                  onChange={(e) => setFormData({...formData, phone: e.target.value})}
+                  onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                 />
               </div>
               <div>
                 <label className="block text-sm font-medium text-slate-700 mb-1" htmlFor="service">Interested Service</label>
-                <select 
+                <select
                   id="service"
                   className="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-white transition-all text-slate-700"
                   value={formData.service}
-                  onChange={(e) => setFormData({...formData, service: e.target.value})}
+                  onChange={(e) => setFormData({ ...formData, service: e.target.value })}
                 >
                   <option value="">Select a service...</option>
                   <option value="uiux">UI/UX Design</option>
@@ -90,7 +96,7 @@ export default function Hero() {
                   <option value="marketing">Digital Marketing</option>
                 </select>
               </div>
-              
+
               {formStatus && (
                 <div className={`text-sm font-medium ${formStatus.includes("Please") ? "text-red-500" : "text-green-500"}`}>
                   {formStatus}

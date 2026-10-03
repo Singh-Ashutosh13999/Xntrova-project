@@ -41,6 +41,21 @@ export default function Navbar() {
           <button onClick={() => scrollToSection("services")} className="text-slate-600 hover:text-blue-600 font-medium transition-colors cursor-pointer">Services</button>
           <Link href="/blog" className="text-slate-600 hover:text-blue-600 font-medium transition-colors">Blog</Link>
 
+          {/* Region Dropdown */}
+          <div className="relative group">
+            <button className="flex items-center text-slate-600 hover:text-blue-600 font-medium transition-colors">
+              Region
+              <svg className="w-4 h-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
+            </button>
+            <div className="absolute top-full left-0 pt-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+              <div className="w-32 bg-white rounded-xl shadow-[0_10px_40px_-10px_rgba(0,0,0,0.1)] border border-slate-100 overflow-hidden">
+                <Link href="/" className="block px-4 py-2.5 text-sm font-medium text-slate-700 hover:text-blue-600 hover:bg-slate-50 transition-colors">India</Link>
+                <Link href="/us" className="block px-4 py-2.5 text-sm font-medium text-slate-700 hover:text-blue-600 hover:bg-slate-50 transition-colors">US</Link>
+                <Link href="/canada" className="block px-4 py-2.5 text-sm font-medium text-slate-700 hover:text-blue-600 hover:bg-slate-50 transition-colors">Canada</Link>
+              </div>
+            </div>
+          </div>
+
           <div className="flex items-center space-x-3 ml-4 border-l pl-4 border-slate-200">
             {/* Call Button */}
             <a href="tel:+1234567890" className="flex items-center gap-2 bg-slate-100 hover:bg-slate-200 text-slate-800 px-4 py-2 rounded-full font-semibold transition-colors text-sm">
@@ -83,6 +98,15 @@ export default function Navbar() {
           <button onClick={() => scrollToSection("about")} className="text-left text-slate-700 font-medium py-2 border-b border-slate-100">About Us</button>
           <button onClick={() => scrollToSection("services")} className="text-left text-slate-700 font-medium py-2 border-b border-slate-100">Services</button>
           <Link href="/blog" onClick={() => setIsMobileMenuOpen(false)} className="text-left text-slate-700 font-medium py-2 border-b border-slate-100">Blog</Link>
+          
+          <div className="flex flex-col py-2 border-b border-slate-100">
+            <span className="text-left text-slate-400 font-bold text-xs uppercase tracking-wider mb-3">Region</span>
+            <div className="flex flex-col space-y-3 pl-2">
+              <Link href="/" onClick={() => setIsMobileMenuOpen(false)} className="text-left text-slate-700 font-medium hover:text-blue-600 transition-colors">India (Home)</Link>
+              <Link href="/us" onClick={() => setIsMobileMenuOpen(false)} className="text-left text-slate-700 font-medium hover:text-blue-600 transition-colors">US</Link>
+              <Link href="/canada" onClick={() => setIsMobileMenuOpen(false)} className="text-left text-slate-700 font-medium hover:text-blue-600 transition-colors">Canada</Link>
+            </div>
+          </div>
         </div>
       )}
     </header>
